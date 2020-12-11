@@ -138,5 +138,5 @@ loop();
 
 // instructions
 const instructions = document.createElement('div');
-instructions.innerHTML =  "<h3>Instructions:</h3></br>Arrow Up  &  Arrow Down = accelerate <br> Arrow Left  &  Arrow Rigth = boost/balance";
+instructions.innerHTML =  "<h3>Instructions:</h3></br>Arrow Up  &  Arrow Down = accelerate/brake(reverse) <br> Arrow Left  &  Arrow Rigth = boost/balance";
 document.body.appendChild(instructions);
